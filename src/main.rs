@@ -6,8 +6,8 @@ use std::ffi::{
 #[link (name = "interface", kind = "static")]
 extern "C" {
     fn test1(i : *mut c_int);
-    fn test2(string1 : CString, i : *mut c_int);
-    // fn test2(string1 : *mut CString, i : *mut c_int);
+    fn test2(string1 : *mut CString, i : *mut c_int);
+    //fn test2(string1 : CString, i : *mut c_int);
 }
 
 fn main() {
@@ -20,8 +20,8 @@ fn trying() {
         let mut i : c_int = 69420;
 
         test1(&mut i);
-        test2(string1, &mut i);
-        // test2(&mut string1, &mut i);
+        test2(&mut string1, &mut i);
+        //test2(string1, &mut i);
     }
 }
 
