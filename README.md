@@ -8,7 +8,6 @@ along with any information you feel relevant to replicating the bug.
 when i am passing 2 argument to a C function from rust, doing changes in the first parameter affects the value of the second parameter
 ----------------------
 I tried this code in which i am just passing some values from Rust to C :
-_you can also repeat this bug , code is in this repository :_ https://github.com/Sjain-dir/Bug_in_Rust
 
 **in interface.c code** 
 ```C
