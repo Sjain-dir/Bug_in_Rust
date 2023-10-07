@@ -10,8 +10,7 @@ when i am passing 2 argument to a C function from rust, doing changes in the fir
 I tried this code in which i am just passing some values from Rust to C :
 
 **in interface.c code** 
-```
-c
+```C
 void test1(int* i) {
     printf("in test 1 :::\n");
     printf("i pointer value is : %p\n",i);
