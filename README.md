@@ -1,4 +1,4 @@
-
+# Bug_in_Rust
 <!--
 Thank you for filing a bug report! 🐛 Please provide a short summary of the bug,
 along with any information you feel relevant to replicating the bug.
@@ -10,7 +10,8 @@ when i am passing 2 argument to a C function from rust, doing changes in the fir
 I tried this code in which i am just passing some values from Rust to C :
 
 **in interface.c code** 
-```C
+```
+c
 void test1(int* i) {
     printf("in test 1 :::\n");
     printf("i pointer value is : %p\n",i);
