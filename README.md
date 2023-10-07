@@ -1,4 +1,4 @@
-# Bug_in_Rust
+
 <!--
 Thank you for filing a bug report! 🐛 Please provide a short summary of the bug,
 along with any information you feel relevant to replicating the bug.
